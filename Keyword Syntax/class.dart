@@ -9,6 +9,6 @@ class Animal {
 }
 
 void main() {
-  Animal dog = Animal('Dog');
+  Animal dog = Animal('cat');
   dog.speak();
 }

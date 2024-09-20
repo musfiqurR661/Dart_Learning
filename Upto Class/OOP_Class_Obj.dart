@@ -15,4 +15,10 @@ void main() {
   // Creating an object
   Person person = Person('John', 30);
   person.introduce();
+
+  String name = 'John';
+  String greeting = "Hello, $name!";  // String interpolation
+
+  print(greeting);
+
 }
